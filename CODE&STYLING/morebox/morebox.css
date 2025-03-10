@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    height: 100%;
+    width: 48%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.lefttop{
+    height: 48%;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.leftTL{
+    height: 100%;
+    width: 49%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.leftTLT{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.leftTLB{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.leftTR{
+    height: 100%;
+    width: 49%;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.leftTRT{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.leftTRB{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.leftbottom{
+    height: 48%;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.leftBL{
+    height: 100%;
+    width: 49%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.leftBLT{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.leftBLB{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.leftBR{
+    height: 100%;
+    width: 49%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.leftBRT{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.leftBRB{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.right{
+    width: 48%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.righttop{
+    width: 100%;
+    height: 48%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.rightTL{
+    height: 100%;
+    width: 48%;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightTLT{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.rightTLB{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.rightTR{
+    height: 100%;
+    width: 48%;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightTRT{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.rightTRB{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}
+
+.rightbottom{
+    width: 100%;
+    height: 48%;
+    background-color: green;
+}

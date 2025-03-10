@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper > div {
+margin-right: 80px;
+font-size: 20px;
+}
+
+.button_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_wrapper > button {
+    margin-right: 30px;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 16px;text-transform: capitalize;
+    border: 0;
+    color: white;
+}
+
+#login {
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
+}

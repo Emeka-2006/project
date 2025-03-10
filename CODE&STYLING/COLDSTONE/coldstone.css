@@ -1,0 +1,60 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: darkred;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    height: 60px;
+}
+
+.nav_holder{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    color: #fff;
+    margin-right: 25px;
+}
+
+.hero_section{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-image: url(./cream.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

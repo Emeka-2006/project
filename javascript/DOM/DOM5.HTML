@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <textarea id="message" placeholder="type something.." rows="5"> </textarea>
+    <p>Characters: <span id="counter">0</span></p>
+
+    <script>
+      document.getElementById("message").addEventListener("input", function () {
+        let count = this.value.length;
+        document.getElementById("counter").textContent = count;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>box</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .wrapper {
+        width: 70%;
+        height: 250px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+      }
+
+      .box1 {
+        background-color: lime;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40%;
+        width: 90%;
+      }
+
+      .box2 {
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        width: 45%;
+      }
+
+      .box3 {
+        background-color: skyblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+        width: 90%;
+      }
+
+      .box1_and_box_3_wrapper {
+        width: 45%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box1_and_box_3_wrapper">
+        <div class="box1">box1</div>
+        <div class="box3">box3</div>
+      </div>
+      <div class="box2">box2</div>
+    </div>
+  </body>
+</html>

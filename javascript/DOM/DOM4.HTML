@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="itemInput" placeholder="Enter item" />
+    <button id="additem">Add Item</button>
+    <ul id="itemList"></ul>
+
+    <script>
+      let input = document.getElementById("itemInput");
+      let addButton = document.getElementById("additem");
+      let list = document.getElementById("itemList");
+
+      addButton.addEventListener("click", function () {
+        if (input.value.trim() !== " ") {
+          let ListItem = document.createElement("li");
+          ListItem.innerText = input.value;
+          list.appendChild(ListItem);
+        }
+      });
+    </script>
+  </body>
+</html>

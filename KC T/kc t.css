@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.container {
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.546);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* background-color: aquamarine; */
+    height: 98%;
+    width: 75%;
+    display: flex;
+}
+
+.left {
+    background-color: rgb(144, 35, 239);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-left: 30px;
+}
+
+.left_top {
+    /* background-color: bisque; */
+    height: 10%;
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+.left_top > a {
+    color: white;
+    text-decoration: none;
+}
+
+.left_top > a:hover {
+    text-decoration: underline;
+}
+
+.left_middle {
+    /* background-color: burlywood; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left_middle > img {
+    height: 200px;
+    width: 60%;
+}
+
+.left_middle > p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.left_bottom {
+    margin-top: 110px;
+}
+
+.left_bottom > a {
+    color: white;
+}
+
+.right {
+    background-color: rgb(227, 232, 242);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right_title {
+    color: blue;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.right_steps {
+    margin-bottom: 40px;
+    color: rgba(0, 0, 0, 0.326);
+}
+
+.label {
+    font-size: 15px;
+}
+
+.age { 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.input {
+    width: 100%;
+    height: 40px
+}
+
+.email {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 100%;
+    background-color: rgb(38, 78, 240);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.right_bottom {
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.right_bottom > a {
+    text-decoration: none;
+    color: rgb(38, 78, 240);
+}
+
+.right_bottom > a:hover {
+    text-decoration: underline;
+}

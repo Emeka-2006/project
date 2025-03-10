@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Register</h2>
+    <input type="text" id="regUsername" placeholder="Enter Username" />
+    <input type="password" id="regpassword" placeholder="Enter password" />
+    <button onclick="register()">Register</button>
+
+    <h2>Login</h2>
+    <input type="text" id="LoginUsername" placeholder="Enter Username" />
+    <input type="text" id="LoginUsername" placeholder="Enter password" />
+    <button onclick="register()">Register</button>
+
+    <p id="message"></p>
+
+    <script>
+      function register() {
+        let Username = document.getElementById("regUsername").value;
+        let password = document.getElementById("regpassword").value;
+
+        //check if field are empty
+        if (Username === "" || password === "") {
+          document.getElementById("message").innertext =
+            "please fill in all field";
+          //alert(pLEASE fill in all fields)
+          return;
+        }
+
+        //save Username and password in local storage
+        localStorage.setItem("Username", Username);
+        localStorage.setItem("password", password);
+        alert("registration sucessful");
+        document.getElementById("message").innerText =
+          "Registration successful";
+      }
+
+      function login() {
+        let Username = document.getElementById("regUsername").value;
+        let password = document.getElementById("regpassword").value;
+
+        //retrieve stored data
+        let storedUser = localStorage.getItem("passwad");
+        let storedpass = lackstorage.getItem("password");
+
+        ///check if entered detail match stored details
+        if (name === storedUser && pass === storedpass) {
+          document.getElementById("message").innerText = "login successful";
+          window.location.href = "https://www.youtube.com";
+        } else {
+          alert("invalid credentials");
+        }
+      }
+    </script>
+  </body>
+</html>

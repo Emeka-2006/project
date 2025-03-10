@@ -1,0 +1,387 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(143, 15, 143, 0.801);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2l{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    
+    flex-direction: row;
+    font-size: 10px;
+    color: #fff;
+}
+
+.h2r{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+   
+    flex-direction: row;
+    color: #fff;
+    font-weight: bolder;
+    z-index: 0;
+}
+
+.h-icon{
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+.mid{
+    width: 100%;
+    height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+    
+}
+
+.mid-L{
+    height: 100%;
+    width: 38%;
+    align-items: center;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 38px;
+   
+    padding:45px;
+}
+
+.mid-R{
+    height: 100%;
+    width: 38%;
+    align-items: center;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 38px;
+   
+    padding:45px;
+}
+
+.cakery{
+    margin-top: 43px;
+    z-index: 2;
+}
+
+.section1{
+    width: 100%;
+    height: 320px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.section1-text{
+    font-size: 65px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cakehat{
+size: 150px;
+}
+
+.section1-text2{
+        font-size: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-weight: 50;
+        color: rgba(0, 0, 0, 0.438);
+}
+
+.butter{
+    height: 80vh;
+    width: 100%;
+
+    background-image: url(./images1/butter.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.section2a{
+    height: 95%;
+    width: 280px;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section2a1{
+    height: 45%;
+    width: 100%;
+    
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2a2{
+    height: 45%;
+    width: 100%;
+  
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2-text{
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.section3{
+    width: 100%;
+    height: 200px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.button4{
+color: #fff;
+background-color: rgb(180, 60, 180);
+border: none;
+width: 200px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.texttt{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px; 
+    color:  rgb(80, 18, 18)
+}
+
+.section4{
+    width: 100%;
+    height: 500px;
+   background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.section4h{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textt{
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px; 
+        color:  rgb(80, 18, 18)
+}
+
+.section4-body{
+    width: 70%;
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.section4-bodya{
+    height: 100%;
+    width: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section4-bodya1{
+    width: 100%;
+    height: 48%;
+    background-color: pink;
+}
+
+.section4-bodya2{
+    width: 100%;
+    height: 48%;
+    background-color: pink;
+}
+
+.section4-bodyb{
+    height: 100%;
+    width: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section4-bodyb1{
+    width: 100%;
+    height: 48%;
+    background-color: pink;
+}
+
+.section4-bodyb2{
+    width: 100%;
+    height: 48%;
+    background-color: pink;
+}
+
+.section5{
+    width: 100%;
+    height: 520px;
+    background-color: rgb(180, 60, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.mainback{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+   
+}
+
+.back1{
+      width: 350px;
+      height: 250px;
+
+    background-image: url(./images2/i1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 40px;
+    bottom: 10px;
+}
+
+.back2{
+    width: 350px;
+    height: 250px;
+
+  background-image: url(./images2/i2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 30px;
+}
+
+.back3{
+    width: 350px;
+    height: 250px;
+
+  background-image: url(./images2/i3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 20px;
+  right: 50px;
+}
+
+.back4{
+    width: 350px;
+    height: 250px;
+
+  background-image: url(./images2/i4.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 70px;
+  bottom: 50px;
+}
+
+.insta{
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+
+
