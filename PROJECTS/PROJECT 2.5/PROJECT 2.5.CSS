@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(143, 15, 143, 0.801);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2l{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    
+    flex-direction: row;
+    font-size: 10px;
+    color: #fff;
+}
+
+.h2r{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+   
+    flex-direction: row;
+    color: #fff;
+    font-weight: bolder;
+    z-index: 0;
+}
+
+.h-icon{
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+.mid{
+    width: 100%;
+    height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+    
+}
+
+.mid-L{
+    height: 100%;
+    width: 38%;
+    align-items: center;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 38px;
+   
+    padding:45px;
+}
+
+.mid-R{
+    height: 100%;
+    width: 38%;
+    align-items: center;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 38px;
+   
+    padding:45px;
+}
+
+.cakery{
+    margin-top: 43px;
+    z-index: 2;
+}
+
+.section1{
+    width: 100%;
+    height: 320px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.section1-text{
+    font-size: 65px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cakehat{
+size: 150px;
+padding-bottom: 15px;
+}
+
+.section1-text2{
+        font-size: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-weight: 50;
+        color: rgba(0, 0, 0, 0.438);
+        display: flex;
+        width: 900px;
+        height: 150px;
+       
+}
+
+.section2{
+    width: 100%;
+    height: 1100px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 50px;
+}
+
+.a{
+    height: 100%;
+    width: 400px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.a1{
+    height: 47%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+
+}
+
+.tasty{
+    width: 400px;
+    height: 300px;
+    padding: -10px;
+}
+
+.a11{
+    height: 180px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text11{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.text22{
+    color: rgba(0, 0, 0, 0.438);
+}
+
+.button11{
+color: #fff;
+background-color: rgb(180, 60, 180);
+border: none;
+width: 190px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.pricing{
+    
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color:  rgb(180, 60, 180);
+    margin-top: 100px;
+}
+
+.top-footer{
+    width: 100%;
+    height: 70%;
+    
+    display: flex;
+    padding: 40px;
+}
+
+.footer1{
+    width: 32%;
+    height: 100%;
+   
+}
+
+.footer2{
+    width: 32%;
+    height: 100%;
+    margin-left: 20px;
+  
+}
+
+.footer3{
+    width: 32%;
+    height: 100%;
+  
+}
+
+.footer-head{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    color: rgb(78, 8, 78);
+}
+
+.footer-body{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.footer-body2{
+   
+    margin-top: 20px;
+    color: #fff;
+   
+}
+
+.fb2{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.line{
+    background-color: black;
+    width: 90%;
+    height: 1px;
+    margin-left: 80px;
+}
+
+.bottom-footer{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.bficons{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+    margin-left: 80px;
+}
+
+
+
+.bftext{
+    height: 100%;
+    width: 130px;
+
+    margin-right: 80px;
+}
+
+.bftextt{
+    color: #fff;
+    width: 200px;
+}
